@@ -1,0 +1,25 @@
+{
+    "channel_names": {
+        "0": "MRI"
+    },
+    "labels": {
+        "background": 0,
+        "Right Vastus Lateralis": 1,
+        "Right Vastus Medialis": 2,
+        "Right Rectus Femoris": 3,
+        "Right Biceps Femoris-SH": 4,
+        "Right Biceps Femoris-LH": 5,
+        "Right Semitendinosus": 6,
+        "Right Semimembranosus": 7,
+        "Left Vastus Lateralis": 8,
+        "Left Vastus Medialis": 9,
+        "Left Rectus Femoris": 10,
+        "Left Biceps Femoris-SH": 11,
+        "Left Biceps Femoris-LH": 12,
+        "Left Semitendinosus": 13,
+        "Left Semimembranosus": 14
+    },
+    "numTraining": 120,
+    "file_ending": ".nii.gz",
+    "name": "Emory"
+}
