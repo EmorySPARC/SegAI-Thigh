@@ -1,6 +1,6 @@
-# ThighSegAI – Deep Learning–Based Thigh Muscle Segmentation 
+# SegAI-Thigh – Deep Learning–Based Thigh Muscle Segmentation 
 
-ThighSegAI offers a ready-to-use, fully automatic deep-learning pipeline, built on nnU‑Net, for segmenting thigh muscles from 3D MRI. The pretrained model, developed and validated in the associated publication (DOI\_PLACEHOLDER), was trained on 120 N4‑corrected IDEAL water scans from professional-level football athletes and competitive ACL‑injury subjects, achieving near inter-expert accuracy (DSC ≥ 0.95) with minimal setup. This repository provides researchers and clinicians with the AI model and an example dataset for applying the pretrained model in their own studies.
+SegAI-Thigh offers a ready-to-use, fully automatic deep-learning pipeline, built on nnU‑Net, for segmenting thigh muscles from 3D MRI. The pretrained model, developed and validated in the associated publication (DOI\_PLACEHOLDER), was trained on 120 N4‑corrected IDEAL water scans from professional-level football athletes and competitive ACL‑injury subjects, achieving near inter-expert accuracy (DSC ≥ 0.95) with minimal setup. This repository provides researchers and clinicians with the AI model and an example dataset for applying the pretrained model in their own studies.
 
 ---
 
@@ -48,9 +48,9 @@ python src/seg_ai_thigh.py -i data/stackbind_ideal_water_N4.nii.gz -o data/stack
 
 The `data/` directory includes:
 
-* `stackbind_ideal_water_N4.nii.gz`: Input anatomical image (IDEAL water image, N4 bias-corrected).
-* `stackbind_ideal_water_muscles_SegPropa.nii.gz`: Ground truth segmentation (generated semi‑automatically via [SegPropa](https://gitlab.com/augustin-c-ogier/segpropa)).
-* `stackbind_ideal_water_muscles_SegDL.nii.gz`: Auto‑segmentation output one will generate by running the script on the anatomical image.
+* `ACL0088_stackbind_ideal_water_N4.nii.gz`: Input anatomical image (IDEAL water image, N4 bias-corrected).
+* `ACL0088_stackbind_ideal_water_N4_SegPropa.nii.gz`: Ground truth segmentation (generated semi‑automatically via [SegPropa](https://gitlab.com/augustin-c-ogier/segpropa)).
+* `ACL0088_stackbind_ideal_water_N4_SegAI.nii.gz`: Output AI mask produced by the inference script applied to the example anatomical scan.
 
 ---
 
