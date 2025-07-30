@@ -34,7 +34,7 @@ python seg_ai_thigh.py -i <input_anat_nii> -o <output_mask_nii> -n <path_to_nnun
 
 * `-i`  : Path to the input anatomical NIfTI (e.g. IDEAL water image, N4 corrected).
 * `-o`  : Path where the output segmentation NIfTI will be saved.
-* `-n` 	: Path to the `nnUNetv2_data/` folder (containing nnUNet_raw, nnUNet_preprocessed, nnUNet_results)
+* `-n` 	: Path to the `nnUNetv2_data/` folder (containing nnUNet_raw, nnUNet_preprocessed, nnUNet_results, nnUNet_inference)
 
 ---
 
@@ -89,9 +89,9 @@ Install required Python packages:
 
 ## Important Notes
 
-* **nnUNet data structure required**: The `nnUNetv2_data/` folder must contain the `nnUNet_raw/`, `nnUNet_preprocessed/`, and `nnUNet_results/` subdirectories—this layout is mandatory for nnU-Net's internal operations.
+* **nnUNet data structure required**: The `nnUNetv2_data/` folder must contain the `nnUNet_raw/`, `nnUNet_preprocessed/`, `nnUNet_results/`, and `nnUNet_inference/` subdirectories—this layout is mandatory for nnU-Net's internal operations.
 
-* **Temporary staging**: The script will create timestamped subfolders under `nnUNet_raw/` and `nnUNet_preprocessed/` for staging and automatically clean them up after inference.
+* **Temporary staging**: The script will create timestamped subfolders under `nnUNet_inference/` for staging and automatically clean them up after inference.
 
 * **N4 bias correction**: Input images should be N4-corrected to reduce intensity inhomogeneity. We recommend using [ANTs N4](https://github.com/ANTsX/ANTs/wiki/N4BiasFieldCorrection)).
 
