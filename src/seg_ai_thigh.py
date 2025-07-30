@@ -64,11 +64,12 @@ def run_nnunet(input_nii, output_mask, nnunet_dir):
     os.environ["nnUNet_raw"] = os.path.join(nnunet_dir, "nnUNet_raw")
     os.environ["nnUNet_preprocessed"] = os.path.join(nnunet_dir, "nnUNet_preprocessed")
     os.environ["nnUNet_results"] = os.path.join(nnunet_dir, "nnUNet_results")
+    os.environ["nnUNet_inference"] = os.path.join(nnunet_dir, "nnUNet_inference")
 
     # Prepare temporary staging dirs
     ts = datetime.now().strftime("%y%m%d_%H%M%S")
-    raw_dir = os.path.join(os.environ["nnUNet_raw"], ts)
-    out_dir = os.path.join(os.environ["nnUNet_preprocessed"], ts)
+    raw_dir = os.path.join(os.environ["nnUNet_inference"], ts)
+    out_dir = os.path.join(os.environ["nnUNet_inference"], ts)
     os.makedirs(raw_dir, exist_ok=True)
     os.makedirs(out_dir, exist_ok=True)
 
