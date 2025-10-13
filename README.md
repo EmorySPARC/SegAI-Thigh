@@ -43,7 +43,7 @@ python seg_ai_thigh.py -i <input_anat_nii> -o <output_mask_nii> -n <path_to_nnun
 Run on the provided example data in `data/`:
 
 ```bash
-python src/seg_ai_thigh.py -i data/stackbind_ideal_water_N4.nii.gz -o data/stackbind_ideal_water_muscles_SegDL.nii.gz -n src/nnUNetv2_data
+python src/seg_ai_thigh.py -i data/stackbind_ideal_water_N4.nii.gz -o data/stackbind_ideal_water_muscles_SegAI.nii.gz -n src/nnUNetv2_data
 ```
 
 The `data/` directory includes:
