@@ -2,12 +2,6 @@
 
 SegAI-Thigh offers a ready-to-use, fully automatic deep-learning pipeline, built on nnU‑Net, for segmenting thigh muscles from 3D MRI. The pretrained model, developed and validated in the associated publication (DOI\_PLACEHOLDER), was trained on 120 N4‑corrected IDEAL water scans from competitive athletes with anterior cruciate ligament (ACL) injuries and professional-level football athletes, achieving near inter-expert accuracy (DSC ≥ 0.95) with minimal setup. This repository provides researchers and clinicians with the AI model and an example dataset for applying the pretrained model in their own studies.
 
----
-
-> ⚠️ **DISCLAIMER:** The pretrained nnU-Net model checkpoint is not included yet and will be provided upon manuscript acceptance.
-
----
-
 <div style="text-align: center;">
     <img src="./assets/Fig_DLseg.png" alt="ThighSegAI Workflow" style="width: 95%;">
 </div>
