@@ -66,7 +66,6 @@ You should see output like `Cuda compilation tools, release 11.x`. If not instal
 
 After verifying CUDA, install PyTorch in your environment. Visit [PyTorch Get Started](https://pytorch.org/get-started/locally/) and select the appropriate options for your OS and CUDA version.
 
-
 #### 3. Python libraries
 
 Install required Python packages:
@@ -78,6 +77,10 @@ Install required Python packages:
 * **nnUNetv2**: `pip install nnunetv2`
 
 > **Tip:** We recommend encapsulating all dependencies within a [virtual environment](https://docs.python.org/3/library/venv.html) or a [Conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+#### 4. Git LFS (required for pretrained model weights)
+
+The pretrained nnU-Net model weights (`*.pth`) are tracked using **Git LFS**. Install Git LFS and run `git lfs pull` after cloning to retrieve the model file. Alternatively, the file can also be downloaded manually from the GitHub web interface.
 
 ---
 
