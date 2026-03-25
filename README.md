@@ -1,5 +1,8 @@
 # SegAI-Thigh – Deep Learning-Based Thigh Muscle Segmentation 
 
+[![Paper DOI](https://img.shields.io/badge/Paper%20DOI-10.1093.radadv.umag005-blue)](https://doi.org/10.1093/radadv/umag005)
+![Model](https://img.shields.io/badge/Model-Pretrained%20available-brightgreen)
+
 SegAI-Thigh offers a ready-to-use, fully automatic deep-learning pipeline, built on nnU‑Net, for segmenting thigh muscles from 3D MRI. The pretrained model, developed and validated in the associated publication (DOI\_PLACEHOLDER), was trained on 120 N4‑corrected IDEAL water scans from competitive athletes with anterior cruciate ligament (ACL) injuries and professional-level football athletes, achieving near inter-expert accuracy (DSC ≥ 0.95) with minimal setup. This repository provides researchers and clinicians with the AI model and an example dataset for applying the pretrained model in their own studies.
 
 <div style="text-align: center;">
@@ -114,7 +117,7 @@ The pretrained nnU-Net model weights (`*.pth`) are tracked using **Git LFS**. In
 
 If you use this code for your research, please cite the following paper:
 
-1. **Slutsky-Ganesh et al. (2025)** – Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes. <details><summary>BibTeX entry</summary>
+1. **Slutsky-Ganesh et al. (2025)** – Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes. [[DOI Link](https://doi.org/10.1093/radadv/umag005)] <details><summary>BibTeX entry</summary>
    ```bibtex
    @article{slutsky2026optimizing,
     title={Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes},
