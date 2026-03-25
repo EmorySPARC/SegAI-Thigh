@@ -115,7 +115,7 @@ The pretrained nnU-Net model weights (`*.pth`) are tracked using **Git LFS**. In
 If you use this code for your research, please cite the following paper:
 
 1. **Slutsky-Ganesh et al. (2025)** – Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes. <details><summary>BibTeX entry</summary>
-   ```
+   ```bibtex
    @article{slutsky2026optimizing,
     title={Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes},
     author={Slutsky-Ganesh, Alexis B and Baup, Salom{\'e} and Bharadwaj, Upasana U and Slaton, Jake A and Valencia, Melanie and Diekfuss, Jed A and Zuleger, Taylor M and Warren, Shayla M and Barber Foss, Kim D and Hammond, Kyle and others},
@@ -124,9 +124,8 @@ If you use this code for your research, please cite the following paper:
     number={1},
     pages={umag005},
     year={2026},
-    publisher={Oxford University Press}
-  }
-   ```
+    publisher={Oxford University Press}  
+    }
 </details>
 
 ---
