@@ -121,7 +121,7 @@ If you use this code for your research, please cite the following paper:
    ```bibtex
    @article{slutsky2026optimizing,
     title={Optimizing MRI annotation workflows for high-accuracy deep learning thigh muscle segmentation in athletes},
-    author={Slutsky-Ganesh, Alexis B and Baup, Salom{\'e} and Bharadwaj, Upasana U and Slaton, Jake A and Valencia, Melanie and Diekfuss, Jed A and Zuleger, Taylor M and Warren, Shayla M and Barber Foss, Kim D and Hammond, Kyle and others},
+    author={Slutsky-Ganesh, Alexis B and Baup, Salom{\'e} and Bharadwaj, Upasana U and Slaton, Jake A and Valencia, Melanie and Diekfuss, Jed A and Zuleger, Taylor M and Warren, Shayla M and Barber Foss, Kim D and Hammond, Kyle and Xerogeanes, John W and van Heeswijk, Ruud B and Myer, Gregory D and Ogier, Augustin C},
     journal={Radiology Advances},
     volume={3},
     number={1},
